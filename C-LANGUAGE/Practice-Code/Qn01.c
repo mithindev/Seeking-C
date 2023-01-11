@@ -9,10 +9,10 @@ void main() {
   int count = 0;
   for (int i = 0;i < 20; i++) {
     if (name[i] == '\0') {
-      printf("Length with space %d ", i);
+      printf("Length with space %d \n", i);
       break;
     }
-    if (name[i] != " ") {
+    if (name[i] != ' ') {
       count++;
     }
   }
