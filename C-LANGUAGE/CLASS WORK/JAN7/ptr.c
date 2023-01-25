@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 void main() {
-  int age = 22;
-  int *ptr = &age;
+  char ch = 'a';
+  char *ptr = &ch;
 
   printf("Age : %u\n", ptr);
   printf("Age : %u\n", ++ptr);
