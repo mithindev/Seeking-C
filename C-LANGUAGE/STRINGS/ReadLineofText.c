@@ -1,8 +1,13 @@
 #include <stdio.h>
 
-#define MAX 50];
+#define MAX 50
 
-int main() {
-  char str[MAX;
+void main() {
+  char str[MAX];
+  fgets(str, MAX, stdin);
+  printf("String is :%s\n ", str);
+
+  puts(str);
+
 
 }
