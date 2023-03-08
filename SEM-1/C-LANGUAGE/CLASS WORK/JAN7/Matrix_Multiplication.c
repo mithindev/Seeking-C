@@ -33,7 +33,7 @@ void main() {
     for (int j = 0; j < q; j++) {
       arrf[i][j] = 0;
       for (int k = 0;k < n; k++) {        
-        arrf[i][j] += arr1[i][k]*arr2[k][j];
+        arrf[i][j] +=  + arr1[i][k]*arr2[k][j];
       }      
     }
   }
